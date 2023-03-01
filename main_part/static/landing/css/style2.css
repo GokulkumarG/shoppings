@@ -1,0 +1,26 @@
+.logo img{
+    display: inline-block;
+    float: left;  
+    margin-top: 20px;  
+    margin-right: 10px;
+    
+}
+.navigation .navi a:hover{
+   
+    border-radius: 20px;
+    font-size: 20px ;
+    
+    
+}
+.drop a:hover{
+    background-color: rgb(100, 96, 96);
+    font-weight: bold;
+}
+
+
+@media (max-width: 800px) {
+    .logo img {
+        display: inline-block;
+       margin-top: 5px;
+    }
+  }
